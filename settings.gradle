@@ -11,4 +11,7 @@ plugins {
 }
 
 rootProject.name = 'chat-flow'
-include('app')
+include('client')
+include('consumer')
+include('producer')
+include('utils')
