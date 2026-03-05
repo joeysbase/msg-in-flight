@@ -25,7 +25,7 @@ import jakarta.websocket.Session;
 import jakarta.websocket.server.ServerEndpoint;
 
 @ServerEndpoint(value = "/send-message", configurator = IpAwareConfigurator.class)
-public class ProducerServer {
+public class ProducerEndPoint {
 
   public static Set<Session> sessionSet = ConcurrentHashMap.newKeySet();
   public static Map<Session, String> sessionToIp = new ConcurrentHashMap<>();
@@ -34,7 +34,7 @@ public class ProducerServer {
   private final String serverId;
   private static final String EXCHANGE_NAME = "chat.exchange";
 
-  public ProducerServer(String id) {
+  public ProducerEndPoint(String id) {
     serverId = id;
   }
 
