@@ -8,6 +8,8 @@
 plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
+
+    id 'war'
 }
 
 repositories {
@@ -22,6 +24,19 @@ dependencies {
     // This dependency is used by the application.
     implementation libs.guava
 
+    // websocket
+    implementation 'org.apache.tomcat.embed:tomcat-embed-core:10.1.20'
+    implementation 'org.apache.tomcat.embed:tomcat-embed-websocket:10.1.20'
+    implementation 'jakarta.websocket:jakarta.websocket-api:2.1.1'
+
+    implementation project(':utils')
+
+    // parsing json
+    implementation 'com.fasterxml.jackson.core:jackson-databind:2.17.0'
+
+    // rabbitMQ
+    implementation 'com.rabbitmq:amqp-client:5.28.0'
+
     
 }
 
@@ -34,5 +49,5 @@ java {
 
 application {
     // Define the main class for the application.
-    mainClass = 'org.example.App'
+    mainClass = 'chatflow.producer.ProducerServer'
 }
