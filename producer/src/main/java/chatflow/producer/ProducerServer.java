@@ -60,6 +60,42 @@ public class ProducerServer {
     return queueMsg;
   }
 
+  private void sendAck(Session session){
+    ObjectNode node = MAPPER.createObjectNode();
+    node.put("status", "succeed");
+    node.put("msg", "message received");
+    node.put("timestamp", Instant.now().toString());
+    session.getAsyncRemote().sendText(node.toString());
+  }
+
+  private void backoff(int attempt) {
+    try {
+      long sleep = (long) Math.pow(2, attempt) * 50;
+      Thread.sleep(sleep);
+    } catch (InterruptedException ignored) {
+    }
+  }
+
+  private void publishWithRetry(
+      Channel channel, String routingKey, byte[] messageBody, int maxRetries, Session session) {
+    int attempt = 0;
+    while (attempt < maxRetries) {
+      try {
+        channel.basicPublish(EXCHANGE_NAME, routingKey, null, messageBody);
+        channel.waitForConfirmsOrDie(5000);
+        sendAck(session);
+        return; // Success
+      } catch (Exception e) {
+        attempt++;
+        if (attempt >= maxRetries) {
+          sendError("Failed to publish message after " + maxRetries + " attempts", session);
+          return;
+        }
+        backoff(attempt);
+      }
+    }
+  }
+
   @OnOpen
   public void onOpen(Session session, EndpointConfig config) {
     sessionSet.add(session);
@@ -84,12 +120,8 @@ public class ProducerServer {
       channel.queueDeclare("room." + queueMsg.roomId, true, false, true, null);
       channel.exchangeDeclare("chat.exchange", "direct");
       channel.queueBind("room." + queueMsg.roomId, EXCHANGE_NAME, "room." + queueMsg.roomId);
-      channel.basicPublish(
-          EXCHANGE_NAME,
-          "room." + queueMsg.roomId,
-          null,
-          MAPPER.writeValueAsString(queueMsg).getBytes());
-
+      publishWithRetry(channel, "room." + queueMsg.roomId, MAPPER.writeValueAsBytes(queueMsg), 5, session);
+      POOL.returnChannel(channel);
     } catch (JsonProcessingException e) {
       sendError("Invalid message format", session);
     } catch (InterruptedException | IOException e) {

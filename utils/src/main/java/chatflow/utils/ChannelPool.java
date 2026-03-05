@@ -26,6 +26,7 @@ public class ChannelPool {
       Connection connection = this.FACTORY.newConnection();
       for (int i = 0; i < this.POOLSIZE; i++) {
         Channel channel = connection.createChannel();
+        channel.confirmSelect();
         this.POOL.add(channel);
       }
     } catch (IOException e) {
