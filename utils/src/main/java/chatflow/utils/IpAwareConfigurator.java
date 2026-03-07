@@ -1,4 +1,4 @@
-package chatflow.producer;
+package chatflow.utils;
 
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.websocket.HandshakeResponse;

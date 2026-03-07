@@ -24,7 +24,7 @@ public class ServerApp{
                 (ServerContainer) context.getServletContext()
                         .getAttribute("jakarta.websocket.server.ServerContainer");
 
-        serverContainer.addEndpoint(ProducerEndPoint.class);
+        serverContainer.addEndpoint(SendEndPoint.class);
 
         System.out.println("Producer Service started.");
 

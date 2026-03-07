@@ -14,6 +14,7 @@ import com.rabbitmq.client.Channel;
 
 import chatflow.utils.ChannelPool;
 import chatflow.utils.ChatMessage;
+import chatflow.utils.IpAwareConfigurator;
 import chatflow.utils.MessageValidator;
 import chatflow.utils.QueueMessage;
 import jakarta.websocket.EndpointConfig;
@@ -25,7 +26,7 @@ import jakarta.websocket.Session;
 import jakarta.websocket.server.ServerEndpoint;
 
 @ServerEndpoint(value = "/send-message", configurator = IpAwareConfigurator.class)
-public class ProducerEndPoint {
+public class SendEndPoint {
 
   public static Set<Session> sessionSet = ConcurrentHashMap.newKeySet();
   public static Map<Session, String> sessionToIp = new ConcurrentHashMap<>();
@@ -34,7 +35,7 @@ public class ProducerEndPoint {
   private final String serverId;
   private static final String EXCHANGE_NAME = "chat.exchange";
 
-  public ProducerEndPoint(String id) {
+  public SendEndPoint(String id) {
     serverId = id;
   }
 
