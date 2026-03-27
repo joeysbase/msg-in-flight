@@ -1,42 +1,41 @@
 package chatflow.consumer;
 
-import java.util.HashMap;
-import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.CountDownLatch;
 
 import jakarta.websocket.Session;
 
 public class AckManager {
-    private static final Map<String, CountDownLatch> ackLatches = new HashMap<>();
-    private static final Map<Map<String, Session>, CountDownLatch> sessionLatches = new HashMap<>();
 
-    public static void addLatch(String messageId, CountDownLatch latch) {
-        ackLatches.put(messageId, latch);
-    }
+  private static final ConcurrentHashMap<String, CountDownLatch> ackLatches     = new ConcurrentHashMap<>();
+  private static final ConcurrentHashMap<String, CountDownLatch> sessionLatches = new ConcurrentHashMap<>();
 
-    public static CountDownLatch getLatch(String messageId) {
-        return ackLatches.get(messageId);
-    }
+  
+  public static void addLatch(String messageId, CountDownLatch latch) {
+    ackLatches.put(messageId, latch);
+  }
 
-    public static void removeLatch(String messageId) {
-        ackLatches.remove(messageId);
-    }
+  public static CountDownLatch getLatch(String messageId) {
+    return ackLatches.get(messageId);
+  }
 
-    public static void addSessionLatch(String messageId, Session session, CountDownLatch latch) {
-        Map<String, Session> key = new HashMap<>();
-        key.put(messageId, session);
-        sessionLatches.put(key, latch);
-    }
+  public static void removeLatch(String messageId) {
+    ackLatches.remove(messageId);
+  }
 
-    public static CountDownLatch getSessionLatch(String messageId, Session session) {
-        Map<String, Session> key = new HashMap<>();
-        key.put(messageId, session);
-        return sessionLatches.get(key);
-    }
+  private static String sessionKey(String messageId, Session session) {
+    return messageId + ':' + session.getId();
+  }
 
-    public static void removeSessionLatch(String messageId, Session session) {
-        Map<String, Session> key = new HashMap<>();
-        key.put(messageId, session);
-        sessionLatches.remove(key);
-    }
+  public static void addSessionLatch(String messageId, Session session, CountDownLatch latch) {
+    sessionLatches.put(sessionKey(messageId, session), latch);
+  }
+
+  public static CountDownLatch getSessionLatch(String messageId, Session session) {
+    return sessionLatches.get(sessionKey(messageId, session));
+  }
+
+  public static void removeSessionLatch(String messageId, Session session) {
+    sessionLatches.remove(sessionKey(messageId, session));
+  }
 }

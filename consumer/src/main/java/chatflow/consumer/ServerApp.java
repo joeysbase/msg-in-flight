@@ -27,7 +27,7 @@ public class ServerApp {
 
     try {
       Tomcat tomcat = new Tomcat();
-        tomcat.setPort(8080);
+        tomcat.setPort(9090);
         tomcat.getConnector();
         tomcat.setBaseDir(new File("target/tomcat").getAbsolutePath());
 

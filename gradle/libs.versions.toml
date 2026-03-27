@@ -4,7 +4,11 @@
 [versions]
 guava = "33.4.6-jre"
 junit = "4.13.2"
+hikaricp = "5.1.0"
+postgresql = "42.7.3"
 
 [libraries]
 guava = { module = "com.google.guava:guava", version.ref = "guava" }
 junit = { module = "junit:junit", version.ref = "junit" }
+hikaricp = { module = "com.zaxxer:HikariCP", version.ref = "hikaricp" }
+postgresql = { module = "org.postgresql:postgresql", version.ref = "postgresql" }

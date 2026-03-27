@@ -26,34 +26,42 @@ public class ConnectionManager {
     }
 
     public void init() {
-        try {
-            for (int i = 0; i < numSendConn; i++) {
+        for (int i = 0; i < numSendConn; i++) {
+            try {
                 WebSocketContainer container = ContainerProvider.getWebSocketContainer();
                 ClientSendEndPoint client = new ClientSendEndPoint();
-                container.connectToServer(client, URI.create("ws://" + sendServerIp + "/send"));
+                container.connectToServer(client, URI.create("ws://" + sendServerIp + ":8080/send"));
                 sendConnections.add(client);
                 Statistics.sendConnection.incrementAndGet();
+            } catch (DeploymentException | IOException e) {
+                System.err.println("Failed to open send connection #" + i + ": " + e.getMessage());
             }
-            for (int i = 1; i < 21; i++) {
-                WebSocketContainer container = ContainerProvider.getWebSocketContainer();
-                    ClientReceiveEndPoint client = new ClientReceiveEndPoint();
-                    container.connectToServer(
-                            client, URI.create("ws://" + receiveServerIp + ":8080/receive/room/" + i));
-                            receiveConnections.put(String.valueOf(i), client);
-                    Statistics.receiveConnection.incrementAndGet();
-            }
-        } catch (DeploymentException | IOException e) {
         }
+        for (int i = 1; i < 21; i++) {
+            try {
+                WebSocketContainer container = ContainerProvider.getWebSocketContainer();
+                ClientReceiveEndPoint client = new ClientReceiveEndPoint();
+                container.connectToServer(
+                        client, URI.create("ws://" + receiveServerIp + ":9090/receive/room/" + i));
+                receiveConnections.put(String.valueOf(i), client);
+                Statistics.receiveConnection.incrementAndGet();
+            } catch (DeploymentException | IOException e) {
+                System.err.println("Failed to open receive connection for room " + i + ": " + e.getMessage());
+            }
+        }
+        System.out.println("Connections established — send: " + sendConnections.size()
+                + "/" + numSendConn + ", receive: " + receiveConnections.size() + "/20");
     }
 
     public synchronized void addOneSendConn() {
         try {
             WebSocketContainer container = ContainerProvider.getWebSocketContainer();
             ClientSendEndPoint client = new ClientSendEndPoint();
-            container.connectToServer(client, URI.create("ws://" + sendServerIp + "/send"));
+            container.connectToServer(client, URI.create("ws://" + sendServerIp + ":8080/send"));
             sendConnections.add(client);
             notifyAll();
         } catch (DeploymentException | IOException e) {
+            System.err.println("Failed to add send connection: " + e.getMessage());
         }
     }
 
@@ -131,10 +139,10 @@ public class ConnectionManager {
             WebSocketContainer container = ContainerProvider.getWebSocketContainer();
             ClientReceiveEndPoint client = new ClientReceiveEndPoint();
             container.connectToServer(
-                    client, URI.create("ws://" + receiveServerIp + ":8080/receive/room/" + roomId));
+                    client, URI.create("ws://" + receiveServerIp + ":9090/receive/room/" + roomId));
             receiveConnections.put(roomId, client);
         } catch (DeploymentException | IOException e) {
-
+            System.err.println("Failed to reconnect receive room " + roomId + ": " + e.getMessage());
         }
     }
 

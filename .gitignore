@@ -14,3 +14,7 @@ tomcat*
 cs6650-lab1-key.pem
 
 setup-ec2.sh
+
+.claude
+
+.DS_Store

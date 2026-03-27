@@ -1,0 +1,26 @@
+{"polledAt":"start","stats":{"note":"collector started"}}
+{"polledAt":"2026-03-27T04:16:34Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"200.30%","memUsage":"1.01GiB / 7.653GiB","memPct":"13.20%"}}
+{"polledAt":"2026-03-27T04:16:41Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"4.20%","memUsage":"973.1MiB / 7.653GiB","memPct":"12.42%"}}
+{"polledAt":"2026-03-27T04:16:47Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"200.89%","memUsage":"973.6MiB / 7.653GiB","memPct":"12.42%"}}
+{"polledAt":"2026-03-27T04:16:55Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"0.30%","memUsage":"973MiB / 7.653GiB","memPct":"12.42%"}}
+{"polledAt":"2026-03-27T04:17:02Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"131.56%","memUsage":"1014MiB / 7.653GiB","memPct":"12.94%"}}
+{"polledAt":"2026-03-27T04:17:09Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"319.44%","memUsage":"1.002GiB / 7.653GiB","memPct":"13.10%"}}
+{"polledAt":"2026-03-27T04:17:16Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"443.70%","memUsage":"1.119GiB / 7.653GiB","memPct":"14.62%"}}
+{"polledAt":"2026-03-27T04:17:23Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"669.78%","memUsage":"1.216GiB / 7.653GiB","memPct":"15.89%"}}
+{"polledAt":"2026-03-27T04:17:30Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"490.74%","memUsage":"1.155GiB / 7.653GiB","memPct":"15.10%"}}
+{"polledAt":"2026-03-27T04:17:38Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"599.37%","memUsage":"1.131GiB / 7.653GiB","memPct":"14.78%"}}
+{"polledAt":"2026-03-27T04:17:44Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"763.50%","memUsage":"1.198GiB / 7.653GiB","memPct":"15.66%"}}
+{"polledAt":"2026-03-27T04:17:51Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"802.16%","memUsage":"1.263GiB / 7.653GiB","memPct":"16.51%"}}
+{"polledAt":"2026-03-27T04:17:59Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"711.56%","memUsage":"1.205GiB / 7.653GiB","memPct":"15.74%"}}
+{"polledAt":"2026-03-27T04:18:06Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"904.09%","memUsage":"1.236GiB / 7.653GiB","memPct":"16.15%"}}
+{"polledAt":"2026-03-27T04:18:14Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"937.64%","memUsage":"1.343GiB / 7.653GiB","memPct":"17.55%"}}
+{"polledAt":"2026-03-27T04:18:21Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"984.73%","memUsage":"1.301GiB / 7.653GiB","memPct":"17.00%"}}
+{"polledAt":"2026-03-27T04:18:29Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"684.71%","memUsage":"1.278GiB / 7.653GiB","memPct":"16.69%"}}
+{"polledAt":"2026-03-27T04:18:36Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"803.55%","memUsage":"1.347GiB / 7.653GiB","memPct":"17.61%"}}
+{"polledAt":"2026-03-27T04:18:43Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"813.98%","memUsage":"1.266GiB / 7.653GiB","memPct":"16.55%"}}
+{"polledAt":"2026-03-27T04:18:51Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"754.79%","memUsage":"1.261GiB / 7.653GiB","memPct":"16.48%"}}
+{"polledAt":"2026-03-27T04:18:58Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"880.94%","memUsage":"1.366GiB / 7.653GiB","memPct":"17.85%"}}
+{"polledAt":"2026-03-27T04:19:05Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"814.94%","memUsage":"1.404GiB / 7.653GiB","memPct":"18.34%"}}
+{"polledAt":"2026-03-27T04:19:11Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"824.03%","memUsage":"1.464GiB / 7.653GiB","memPct":"19.13%"}}
+{"polledAt":"2026-03-27T04:19:19Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"719.88%","memUsage":"1.425GiB / 7.653GiB","memPct":"18.62%"}}
+{"polledAt":"2026-03-27T04:19:25Z","stats":{"container":"chat-flow-postgres-1","cpuPct":"877.69%","memUsage":"1.361GiB / 7.653GiB","memPct":"17.79%"}}

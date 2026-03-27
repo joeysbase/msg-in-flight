@@ -1,0 +1,1210 @@
+{"polledAt":"start","data":{"note":"collector started"}}
+{"polledAt":"2026-03-27T04:08:58Z","data":{
+  "generatedAt" : "2026-03-27T04:08:58.982860Z",
+  "coreQueries" : {
+    "messagesInTimeRange" : {
+      "description" : "Messages in room.1 for last 5 minutes",
+      "roomId" : "room.1",
+      "timeRange" : "2026-03-27T04:03:58.983523Z → 2026-03-27T04:08:58.983523Z",
+      "count" : 0,
+      "messages" : [ ]
+    },
+    "userMessageHistory" : {
+      "description" : "Message history for most active user (last 1h)",
+      "userId" : "8048",
+      "count" : 45,
+      "messages" : [ {
+        "messageId" : "0443b306-e4c7-425c-9f14-2ca840228c63",
+        "userId" : "8048",
+        "roomId" : "11",
+        "username" : "user8048",
+        "message" : "msg_48",
+        "createdAt" : "2026-03-26 20:12:01.309977",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "9e5ed526-dcbd-4ba2-9cc3-f5131264ea42",
+        "userId" : "8048",
+        "roomId" : "9",
+        "username" : "user8048",
+        "message" : "msg_44",
+        "createdAt" : "2026-03-26 20:12:55.32911",
+        "messageType" : "JOIN"
+      }, {
+        "messageId" : "ab1c2a5a-db91-4119-b330-1e06d9faf847",
+        "userId" : "8048",
+        "roomId" : "7",
+        "username" : "user8048",
+        "message" : "msg_31",
+        "createdAt" : "2026-03-26 20:12:55.345643",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "5575c531-2cc1-48a6-8ca6-a9ecf8c52a95",
+        "userId" : "8048",
+        "roomId" : "6",
+        "username" : "user8048",
+        "message" : "msg_22",
+        "createdAt" : "2026-03-26 20:12:55.359697",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "c6d231c3-7fb5-46cb-ae3a-b4e963fd33dc",
+        "userId" : "8048",
+        "roomId" : "20",
+        "username" : "user8048",
+        "message" : "msg_20",
+        "createdAt" : "2026-03-26 20:12:55.372758",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "a5726b25-5769-44cb-b29e-47c230efc02c",
+        "userId" : "8048",
+        "roomId" : "14",
+        "username" : "user8048",
+        "message" : "msg_20",
+        "createdAt" : "2026-03-26 20:12:55.403105",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "b979717d-d0d3-45a6-bc20-648f72673b7c",
+        "userId" : "8048",
+        "roomId" : "14",
+        "username" : "user8048",
+        "message" : "msg_49",
+        "createdAt" : "2026-03-26 20:12:55.405195",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "3d2d5da5-b49e-428b-86ac-a98a4458d2c7",
+        "userId" : "8048",
+        "roomId" : "5",
+        "username" : "user8048",
+        "message" : "msg_26",
+        "createdAt" : "2026-03-26 20:12:55.4219",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "9b1bb450-736e-479c-8fd8-7c6525a3d03f",
+        "userId" : "8048",
+        "roomId" : "17",
+        "username" : "user8048",
+        "message" : "msg_12",
+        "createdAt" : "2026-03-26 20:12:55.422538",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "9ff2b404-5da6-4603-ab87-82744e9c216f",
+        "userId" : "8048",
+        "roomId" : "12",
+        "username" : "user8048",
+        "message" : "msg_13",
+        "createdAt" : "2026-03-26 20:12:55.491816",
+        "messageType" : "JOIN"
+      }, {
+        "messageId" : "4035655d-020d-4c3d-8c7c-e6c7d31de693",
+        "userId" : "8048",
+        "roomId" : "20",
+        "username" : "user8048",
+        "message" : "msg_7",
+        "createdAt" : "2026-03-26 20:12:55.588729",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "1ceae119-9693-4ef6-93fc-23ec72f05f61",
+        "userId" : "8048",
+        "roomId" : "5",
+        "username" : "user8048",
+        "message" : "msg_44",
+        "createdAt" : "2026-03-26 20:12:55.596141",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "e1b8cf51-e7a4-4382-97d6-eb458fb03f34",
+        "userId" : "8048",
+        "roomId" : "3",
+        "username" : "user8048",
+        "message" : "msg_15",
+        "createdAt" : "2026-03-26 20:12:55.608282",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "8bdb8c19-0e4b-448e-9352-11a5c97dd73a",
+        "userId" : "8048",
+        "roomId" : "20",
+        "username" : "user8048",
+        "message" : "msg_2",
+        "createdAt" : "2026-03-26 20:29:35.014658",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "a5886d72-963d-4eb6-8d80-ceed7bd70e73",
+        "userId" : "8048",
+        "roomId" : "2",
+        "username" : "user8048",
+        "message" : "msg_28",
+        "createdAt" : "2026-03-26 20:29:35.029766",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "3b9da37a-e71b-434b-bb16-94960cd3e4b9",
+        "userId" : "8048",
+        "roomId" : "15",
+        "username" : "user8048",
+        "message" : "msg_35",
+        "createdAt" : "2026-03-26 20:29:35.064912",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "a1d4d67c-42d8-4208-a242-503fd688ff4d",
+        "userId" : "8048",
+        "roomId" : "10",
+        "username" : "user8048",
+        "message" : "msg_39",
+        "createdAt" : "2026-03-26 20:29:35.211687",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "8d30d2a5-d796-4642-9169-e30e0860adb3",
+        "userId" : "8048",
+        "roomId" : "8",
+        "username" : "user8048",
+        "message" : "msg_18",
+        "createdAt" : "2026-03-26 20:29:35.213337",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "10c91e8a-20d1-4471-99e8-f456ed3ae8da",
+        "userId" : "8048",
+        "roomId" : "12",
+        "username" : "user8048",
+        "message" : "msg_27",
+        "createdAt" : "2026-03-26 20:29:35.218879",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "a07f4c03-7383-4d9f-baaa-fe3a486d27c3",
+        "userId" : "8048",
+        "roomId" : "14",
+        "username" : "user8048",
+        "message" : "msg_13",
+        "createdAt" : "2026-03-26 20:29:35.236422",
+        "messageType" : "TEXT"
+      } ]
+    },
+    "activeUsers" : {
+      "description" : "Unique active users in last 5 minutes",
+      "timeRange" : "2026-03-27T04:03:58.983523Z → 2026-03-27T04:08:58.983523Z",
+      "activeUserCount" : 0
+    },
+    "userRooms" : {
+      "description" : "Rooms participated in by most active user",
+      "userId" : "8048",
+      "rooms" : [ {
+        "roomId" : "11",
+        "lastActivity" : "2026-03-26 21:02:03.438011"
+      }, {
+        "roomId" : "4",
+        "lastActivity" : "2026-03-26 21:02:03.321888"
+      }, {
+        "roomId" : "20",
+        "lastActivity" : "2026-03-26 21:02:03.299666"
+      }, {
+        "roomId" : "18",
+        "lastActivity" : "2026-03-26 21:02:03.257156"
+      }, {
+        "roomId" : "15",
+        "lastActivity" : "2026-03-26 21:02:03.207718"
+      }, {
+        "roomId" : "17",
+        "lastActivity" : "2026-03-26 20:54:17.025196"
+      }, {
+        "roomId" : "3",
+        "lastActivity" : "2026-03-26 20:54:16.938279"
+      }, {
+        "roomId" : "2",
+        "lastActivity" : "2026-03-26 20:54:16.880649"
+      }, {
+        "roomId" : "10",
+        "lastActivity" : "2026-03-26 20:54:16.833273"
+      }, {
+        "roomId" : "9",
+        "lastActivity" : "2026-03-26 20:54:16.716934"
+      }, {
+        "roomId" : "6",
+        "lastActivity" : "2026-03-26 20:54:16.694453"
+      }, {
+        "roomId" : "12",
+        "lastActivity" : "2026-03-26 20:45:11.797517"
+      }, {
+        "roomId" : "7",
+        "lastActivity" : "2026-03-26 20:45:11.767264"
+      }, {
+        "roomId" : "19",
+        "lastActivity" : "2026-03-26 20:45:11.755375"
+      }, {
+        "roomId" : "16",
+        "lastActivity" : "2026-03-26 20:45:11.609367"
+      }, {
+        "roomId" : "14",
+        "lastActivity" : "2026-03-26 20:45:11.547098"
+      }, {
+        "roomId" : "8",
+        "lastActivity" : "2026-03-26 20:29:35.213337"
+      }, {
+        "roomId" : "5",
+        "lastActivity" : "2026-03-26 20:12:55.596141"
+      }, {
+        "roomId" : "13",
+        "lastActivity" : "2026-03-26 20:04:08.561396"
+      } ]
+    }
+  },
+  "analytics" : {
+    "messagesPerSecond" : [ {
+      "ts" : "2026-03-26 21:02:03.0",
+      "count" : 500000
+    } ],
+    "messagesPerMinute" : [ {
+      "ts" : "2026-03-26 20:12:00.0",
+      "count" : 573191
+    }, {
+      "ts" : "2026-03-26 20:29:00.0",
+      "count" : 509091
+    }, {
+      "ts" : "2026-03-26 20:45:00.0",
+      "count" : 500000
+    }, {
+      "ts" : "2026-03-26 20:54:00.0",
+      "count" : 500000
+    }, {
+      "ts" : "2026-03-26 21:02:00.0",
+      "count" : 500000
+    } ],
+    "mostActiveUsers" : [ {
+      "userId" : "8048",
+      "username" : "user8048",
+      "messageCount" : 64
+    }, {
+      "userId" : "56331",
+      "username" : "user56331",
+      "messageCount" : 64
+    }, {
+      "userId" : "68246",
+      "username" : "user68246",
+      "messageCount" : 61
+    }, {
+      "userId" : "79889",
+      "username" : "user79889",
+      "messageCount" : 61
+    }, {
+      "userId" : "19331",
+      "username" : "user19331",
+      "messageCount" : 61
+    }, {
+      "userId" : "26896",
+      "username" : "user26896",
+      "messageCount" : 61
+    }, {
+      "userId" : "97218",
+      "username" : "user97218",
+      "messageCount" : 61
+    }, {
+      "userId" : "39495",
+      "username" : "user39495",
+      "messageCount" : 61
+    }, {
+      "userId" : "81848",
+      "username" : "user81848",
+      "messageCount" : 60
+    }, {
+      "userId" : "56575",
+      "username" : "user56575",
+      "messageCount" : 60
+    } ],
+    "mostActiveRooms" : [ {
+      "roomId" : "2",
+      "messageCount" : 180099,
+      "lastActivity" : "2026-03-26 21:02:03.452868"
+    }, {
+      "roomId" : "18",
+      "messageCount" : 179582,
+      "lastActivity" : "2026-03-26 21:02:03.452864"
+    }, {
+      "roomId" : "16",
+      "messageCount" : 179508,
+      "lastActivity" : "2026-03-26 21:02:03.452894"
+    }, {
+      "roomId" : "1",
+      "messageCount" : 179443,
+      "lastActivity" : "2026-03-26 21:02:03.452901"
+    }, {
+      "roomId" : "12",
+      "messageCount" : 179318,
+      "lastActivity" : "2026-03-26 21:02:03.452897"
+    }, {
+      "roomId" : "15",
+      "messageCount" : 179250,
+      "lastActivity" : "2026-03-26 21:02:03.452901"
+    }, {
+      "roomId" : "11",
+      "messageCount" : 179223,
+      "lastActivity" : "2026-03-26 21:02:03.452878"
+    }, {
+      "roomId" : "14",
+      "messageCount" : 179216,
+      "lastActivity" : "2026-03-26 21:02:03.452902"
+    }, {
+      "roomId" : "7",
+      "messageCount" : 179210,
+      "lastActivity" : "2026-03-26 21:02:03.452899"
+    }, {
+      "roomId" : "4",
+      "messageCount" : 179183,
+      "lastActivity" : "2026-03-26 21:02:03.452891"
+    }, {
+      "roomId" : "20",
+      "messageCount" : 179176,
+      "lastActivity" : "2026-03-26 21:02:03.4529"
+    }, {
+      "roomId" : "5",
+      "messageCount" : 179106,
+      "lastActivity" : "2026-03-26 21:02:03.452903"
+    }, {
+      "roomId" : "10",
+      "messageCount" : 179077,
+      "lastActivity" : "2026-03-26 21:02:03.452898"
+    }, {
+      "roomId" : "13",
+      "messageCount" : 179016,
+      "lastActivity" : "2026-03-26 21:02:03.452898"
+    }, {
+      "roomId" : "8",
+      "messageCount" : 178967,
+      "lastActivity" : "2026-03-26 21:02:03.452903"
+    }, {
+      "roomId" : "3",
+      "messageCount" : 178834,
+      "lastActivity" : "2026-03-26 21:02:03.452902"
+    }, {
+      "roomId" : "17",
+      "messageCount" : 178782,
+      "lastActivity" : "2026-03-26 21:02:03.452897"
+    }, {
+      "roomId" : "19",
+      "messageCount" : 178551,
+      "lastActivity" : "2026-03-26 21:02:03.452893"
+    }, {
+      "roomId" : "9",
+      "messageCount" : 178518,
+      "lastActivity" : "2026-03-26 21:02:03.452884"
+    }, {
+      "roomId" : "6",
+      "messageCount" : 178223,
+      "lastActivity" : "2026-03-26 21:02:03.452902"
+    } ],
+    "userParticipationPatterns" : [ {
+      "userId" : "9774",
+      "roomId" : "6",
+      "messageCount" : 12,
+      "firstSeen" : "2026-03-26 19:34:36.850994",
+      "lastSeen" : "2026-03-26 21:02:03.343031"
+    }, {
+      "userId" : "29656",
+      "roomId" : "12",
+      "messageCount" : 11,
+      "firstSeen" : "2026-03-26 20:04:08.460637",
+      "lastSeen" : "2026-03-26 21:02:03.33982"
+    }, {
+      "userId" : "19827",
+      "roomId" : "16",
+      "messageCount" : 11,
+      "firstSeen" : "2026-03-26 20:04:08.549668",
+      "lastSeen" : "2026-03-26 21:02:03.279169"
+    }, {
+      "userId" : "7098",
+      "roomId" : "6",
+      "messageCount" : 11,
+      "firstSeen" : "2026-03-26 20:04:08.384245",
+      "lastSeen" : "2026-03-26 21:02:03.348163"
+    }, {
+      "userId" : "34869",
+      "roomId" : "12",
+      "messageCount" : 11,
+      "firstSeen" : "2026-03-26 19:34:36.713083",
+      "lastSeen" : "2026-03-26 21:02:03.325642"
+    }, {
+      "userId" : "14899",
+      "roomId" : "3",
+      "messageCount" : 11,
+      "firstSeen" : "2026-03-26 19:34:36.905621",
+      "lastSeen" : "2026-03-26 21:02:03.441633"
+    }, {
+      "userId" : "80864",
+      "roomId" : "18",
+      "messageCount" : 11,
+      "firstSeen" : "2026-03-26 19:34:36.838351",
+      "lastSeen" : "2026-03-26 21:02:03.300954"
+    }, {
+      "userId" : "2304",
+      "roomId" : "20",
+      "messageCount" : 11,
+      "firstSeen" : "2026-03-26 19:34:36.776463",
+      "lastSeen" : "2026-03-26 20:54:16.890459"
+    }, {
+      "userId" : "34095",
+      "roomId" : "19",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.661731",
+      "lastSeen" : "2026-03-26 21:02:03.413017"
+    }, {
+      "userId" : "13814",
+      "roomId" : "5",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.63954",
+      "lastSeen" : "2026-03-26 21:02:03.247802"
+    }, {
+      "userId" : "32294",
+      "roomId" : "19",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.990411",
+      "lastSeen" : "2026-03-26 21:02:03.337447"
+    }, {
+      "userId" : "25261",
+      "roomId" : "1",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:37.018681",
+      "lastSeen" : "2026-03-26 21:02:03.209833"
+    }, {
+      "userId" : "33256",
+      "roomId" : "11",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.72476",
+      "lastSeen" : "2026-03-26 21:02:03.429607"
+    }, {
+      "userId" : "14240",
+      "roomId" : "1",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.881761",
+      "lastSeen" : "2026-03-26 20:54:16.829072"
+    }, {
+      "userId" : "24935",
+      "roomId" : "13",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.627139",
+      "lastSeen" : "2026-03-26 21:02:03.41415"
+    }, {
+      "userId" : "26421",
+      "roomId" : "1",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.646139",
+      "lastSeen" : "2026-03-26 20:45:11.777388"
+    }, {
+      "userId" : "10899",
+      "roomId" : "15",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.982236",
+      "lastSeen" : "2026-03-26 20:54:16.916094"
+    }, {
+      "userId" : "19839",
+      "roomId" : "2",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.913686",
+      "lastSeen" : "2026-03-26 21:02:03.358623"
+    }, {
+      "userId" : "10037",
+      "roomId" : "4",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:37.014838",
+      "lastSeen" : "2026-03-26 21:02:03.452028"
+    }, {
+      "userId" : "16574",
+      "roomId" : "8",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.852546",
+      "lastSeen" : "2026-03-26 21:02:03.433063"
+    } ]
+  },
+  "dbMetrics" : {
+    "totalMessages" : 3582282,
+    "hikariPool" : {
+      "active" : 0,
+      "idle" : 5,
+      "total" : 5
+    },
+    "queriesPerSecond" : {
+      "transactionsPerSec" : 0,
+      "tupleWritesPerSec" : 0,
+      "note" : "first sample — rate available on next poll",
+      "xactCommitTotal" : 37186,
+      "xactRollbackTotal" : 0,
+      "tupInsertedTotal" : 3590527,
+      "tupFetchedTotal" : 330828627
+    },
+    "activeConnections" : {
+      "total" : 5,
+      "active" : 1,
+      "idle" : 4,
+      "idleInTxn" : 0,
+      "waitingOnLock" : 0
+    },
+    "lockWaits" : {
+      "waitingLocks" : 0,
+      "maxWaitSec" : 0,
+      "avgWaitSec" : 0.0
+    },
+    "bufferPoolHitRatio" : {
+      "cumulativeHitRatioPct" : 98.83,
+      "intervalHitRatioPct" : 0,
+      "note" : "first sample — interval ratio available on next poll",
+      "blksReadTotal" : 2720545,
+      "blksHitTotal" : 230174901
+    },
+    "diskIO" : {
+      "bgwriter" : {
+        "buffersCheckpoint" : 153856,
+        "buffersClean" : 382145,
+        "buffersBackend" : 1160534,
+        "checkpointWriteMs" : 2717918,
+        "checkpointSyncMs" : 409,
+        "checkpointsTimed" : 19,
+        "checkpointsRequired" : 1
+      },
+      "tableIO" : {
+        "heapBlksRead" : 666646,
+        "heapBlksHit" : 177710595,
+        "idxBlksRead" : 2048670,
+        "idxBlksHit" : 51994615,
+        "toastBlksRead" : 0,
+        "toastBlksHit" : 0,
+        "combinedHitRatioPct" : 98.83
+      }
+    }
+  },
+  "writerMetrics" : {
+    "totalWritten" : 0,
+    "totalFailed" : 0,
+    "totalBatches" : 0,
+    "dlqSize" : 0,
+    "dlqTotalAdded" : 0,
+    "writesPerSecond" : 0.0,
+    "avgWriteLatencyMs" : 0.0,
+    "p50WriteLatencyMs" : 0,
+    "p95WriteLatencyMs" : 0,
+    "p99WriteLatencyMs" : 0,
+    "bufferSize" : 0,
+    "circuitBreaker" : {
+      "state" : "CLOSED",
+      "failureCount" : 0
+    }
+  }
+}}
+{"polledAt":"2026-03-27T04:09:08Z","data":{
+  "generatedAt" : "2026-03-27T04:08:58.982860Z",
+  "coreQueries" : {
+    "messagesInTimeRange" : {
+      "description" : "Messages in room.1 for last 5 minutes",
+      "roomId" : "room.1",
+      "timeRange" : "2026-03-27T04:03:58.983523Z → 2026-03-27T04:08:58.983523Z",
+      "count" : 0,
+      "messages" : [ ]
+    },
+    "userMessageHistory" : {
+      "description" : "Message history for most active user (last 1h)",
+      "userId" : "8048",
+      "count" : 45,
+      "messages" : [ {
+        "messageId" : "0443b306-e4c7-425c-9f14-2ca840228c63",
+        "userId" : "8048",
+        "roomId" : "11",
+        "username" : "user8048",
+        "message" : "msg_48",
+        "createdAt" : "2026-03-26 20:12:01.309977",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "9e5ed526-dcbd-4ba2-9cc3-f5131264ea42",
+        "userId" : "8048",
+        "roomId" : "9",
+        "username" : "user8048",
+        "message" : "msg_44",
+        "createdAt" : "2026-03-26 20:12:55.32911",
+        "messageType" : "JOIN"
+      }, {
+        "messageId" : "ab1c2a5a-db91-4119-b330-1e06d9faf847",
+        "userId" : "8048",
+        "roomId" : "7",
+        "username" : "user8048",
+        "message" : "msg_31",
+        "createdAt" : "2026-03-26 20:12:55.345643",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "5575c531-2cc1-48a6-8ca6-a9ecf8c52a95",
+        "userId" : "8048",
+        "roomId" : "6",
+        "username" : "user8048",
+        "message" : "msg_22",
+        "createdAt" : "2026-03-26 20:12:55.359697",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "c6d231c3-7fb5-46cb-ae3a-b4e963fd33dc",
+        "userId" : "8048",
+        "roomId" : "20",
+        "username" : "user8048",
+        "message" : "msg_20",
+        "createdAt" : "2026-03-26 20:12:55.372758",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "a5726b25-5769-44cb-b29e-47c230efc02c",
+        "userId" : "8048",
+        "roomId" : "14",
+        "username" : "user8048",
+        "message" : "msg_20",
+        "createdAt" : "2026-03-26 20:12:55.403105",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "b979717d-d0d3-45a6-bc20-648f72673b7c",
+        "userId" : "8048",
+        "roomId" : "14",
+        "username" : "user8048",
+        "message" : "msg_49",
+        "createdAt" : "2026-03-26 20:12:55.405195",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "3d2d5da5-b49e-428b-86ac-a98a4458d2c7",
+        "userId" : "8048",
+        "roomId" : "5",
+        "username" : "user8048",
+        "message" : "msg_26",
+        "createdAt" : "2026-03-26 20:12:55.4219",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "9b1bb450-736e-479c-8fd8-7c6525a3d03f",
+        "userId" : "8048",
+        "roomId" : "17",
+        "username" : "user8048",
+        "message" : "msg_12",
+        "createdAt" : "2026-03-26 20:12:55.422538",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "9ff2b404-5da6-4603-ab87-82744e9c216f",
+        "userId" : "8048",
+        "roomId" : "12",
+        "username" : "user8048",
+        "message" : "msg_13",
+        "createdAt" : "2026-03-26 20:12:55.491816",
+        "messageType" : "JOIN"
+      }, {
+        "messageId" : "4035655d-020d-4c3d-8c7c-e6c7d31de693",
+        "userId" : "8048",
+        "roomId" : "20",
+        "username" : "user8048",
+        "message" : "msg_7",
+        "createdAt" : "2026-03-26 20:12:55.588729",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "1ceae119-9693-4ef6-93fc-23ec72f05f61",
+        "userId" : "8048",
+        "roomId" : "5",
+        "username" : "user8048",
+        "message" : "msg_44",
+        "createdAt" : "2026-03-26 20:12:55.596141",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "e1b8cf51-e7a4-4382-97d6-eb458fb03f34",
+        "userId" : "8048",
+        "roomId" : "3",
+        "username" : "user8048",
+        "message" : "msg_15",
+        "createdAt" : "2026-03-26 20:12:55.608282",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "8bdb8c19-0e4b-448e-9352-11a5c97dd73a",
+        "userId" : "8048",
+        "roomId" : "20",
+        "username" : "user8048",
+        "message" : "msg_2",
+        "createdAt" : "2026-03-26 20:29:35.014658",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "a5886d72-963d-4eb6-8d80-ceed7bd70e73",
+        "userId" : "8048",
+        "roomId" : "2",
+        "username" : "user8048",
+        "message" : "msg_28",
+        "createdAt" : "2026-03-26 20:29:35.029766",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "3b9da37a-e71b-434b-bb16-94960cd3e4b9",
+        "userId" : "8048",
+        "roomId" : "15",
+        "username" : "user8048",
+        "message" : "msg_35",
+        "createdAt" : "2026-03-26 20:29:35.064912",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "a1d4d67c-42d8-4208-a242-503fd688ff4d",
+        "userId" : "8048",
+        "roomId" : "10",
+        "username" : "user8048",
+        "message" : "msg_39",
+        "createdAt" : "2026-03-26 20:29:35.211687",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "8d30d2a5-d796-4642-9169-e30e0860adb3",
+        "userId" : "8048",
+        "roomId" : "8",
+        "username" : "user8048",
+        "message" : "msg_18",
+        "createdAt" : "2026-03-26 20:29:35.213337",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "10c91e8a-20d1-4471-99e8-f456ed3ae8da",
+        "userId" : "8048",
+        "roomId" : "12",
+        "username" : "user8048",
+        "message" : "msg_27",
+        "createdAt" : "2026-03-26 20:29:35.218879",
+        "messageType" : "TEXT"
+      }, {
+        "messageId" : "a07f4c03-7383-4d9f-baaa-fe3a486d27c3",
+        "userId" : "8048",
+        "roomId" : "14",
+        "username" : "user8048",
+        "message" : "msg_13",
+        "createdAt" : "2026-03-26 20:29:35.236422",
+        "messageType" : "TEXT"
+      } ]
+    },
+    "activeUsers" : {
+      "description" : "Unique active users in last 5 minutes",
+      "timeRange" : "2026-03-27T04:03:58.983523Z → 2026-03-27T04:08:58.983523Z",
+      "activeUserCount" : 0
+    },
+    "userRooms" : {
+      "description" : "Rooms participated in by most active user",
+      "userId" : "8048",
+      "rooms" : [ {
+        "roomId" : "11",
+        "lastActivity" : "2026-03-26 21:02:03.438011"
+      }, {
+        "roomId" : "4",
+        "lastActivity" : "2026-03-26 21:02:03.321888"
+      }, {
+        "roomId" : "20",
+        "lastActivity" : "2026-03-26 21:02:03.299666"
+      }, {
+        "roomId" : "18",
+        "lastActivity" : "2026-03-26 21:02:03.257156"
+      }, {
+        "roomId" : "15",
+        "lastActivity" : "2026-03-26 21:02:03.207718"
+      }, {
+        "roomId" : "17",
+        "lastActivity" : "2026-03-26 20:54:17.025196"
+      }, {
+        "roomId" : "3",
+        "lastActivity" : "2026-03-26 20:54:16.938279"
+      }, {
+        "roomId" : "2",
+        "lastActivity" : "2026-03-26 20:54:16.880649"
+      }, {
+        "roomId" : "10",
+        "lastActivity" : "2026-03-26 20:54:16.833273"
+      }, {
+        "roomId" : "9",
+        "lastActivity" : "2026-03-26 20:54:16.716934"
+      }, {
+        "roomId" : "6",
+        "lastActivity" : "2026-03-26 20:54:16.694453"
+      }, {
+        "roomId" : "12",
+        "lastActivity" : "2026-03-26 20:45:11.797517"
+      }, {
+        "roomId" : "7",
+        "lastActivity" : "2026-03-26 20:45:11.767264"
+      }, {
+        "roomId" : "19",
+        "lastActivity" : "2026-03-26 20:45:11.755375"
+      }, {
+        "roomId" : "16",
+        "lastActivity" : "2026-03-26 20:45:11.609367"
+      }, {
+        "roomId" : "14",
+        "lastActivity" : "2026-03-26 20:45:11.547098"
+      }, {
+        "roomId" : "8",
+        "lastActivity" : "2026-03-26 20:29:35.213337"
+      }, {
+        "roomId" : "5",
+        "lastActivity" : "2026-03-26 20:12:55.596141"
+      }, {
+        "roomId" : "13",
+        "lastActivity" : "2026-03-26 20:04:08.561396"
+      } ]
+    }
+  },
+  "analytics" : {
+    "messagesPerSecond" : [ {
+      "ts" : "2026-03-26 21:02:03.0",
+      "count" : 500000
+    } ],
+    "messagesPerMinute" : [ {
+      "ts" : "2026-03-26 20:12:00.0",
+      "count" : 573191
+    }, {
+      "ts" : "2026-03-26 20:29:00.0",
+      "count" : 509091
+    }, {
+      "ts" : "2026-03-26 20:45:00.0",
+      "count" : 500000
+    }, {
+      "ts" : "2026-03-26 20:54:00.0",
+      "count" : 500000
+    }, {
+      "ts" : "2026-03-26 21:02:00.0",
+      "count" : 500000
+    } ],
+    "mostActiveUsers" : [ {
+      "userId" : "8048",
+      "username" : "user8048",
+      "messageCount" : 64
+    }, {
+      "userId" : "56331",
+      "username" : "user56331",
+      "messageCount" : 64
+    }, {
+      "userId" : "68246",
+      "username" : "user68246",
+      "messageCount" : 61
+    }, {
+      "userId" : "79889",
+      "username" : "user79889",
+      "messageCount" : 61
+    }, {
+      "userId" : "19331",
+      "username" : "user19331",
+      "messageCount" : 61
+    }, {
+      "userId" : "26896",
+      "username" : "user26896",
+      "messageCount" : 61
+    }, {
+      "userId" : "97218",
+      "username" : "user97218",
+      "messageCount" : 61
+    }, {
+      "userId" : "39495",
+      "username" : "user39495",
+      "messageCount" : 61
+    }, {
+      "userId" : "81848",
+      "username" : "user81848",
+      "messageCount" : 60
+    }, {
+      "userId" : "56575",
+      "username" : "user56575",
+      "messageCount" : 60
+    } ],
+    "mostActiveRooms" : [ {
+      "roomId" : "2",
+      "messageCount" : 180099,
+      "lastActivity" : "2026-03-26 21:02:03.452868"
+    }, {
+      "roomId" : "18",
+      "messageCount" : 179582,
+      "lastActivity" : "2026-03-26 21:02:03.452864"
+    }, {
+      "roomId" : "16",
+      "messageCount" : 179508,
+      "lastActivity" : "2026-03-26 21:02:03.452894"
+    }, {
+      "roomId" : "1",
+      "messageCount" : 179443,
+      "lastActivity" : "2026-03-26 21:02:03.452901"
+    }, {
+      "roomId" : "12",
+      "messageCount" : 179318,
+      "lastActivity" : "2026-03-26 21:02:03.452897"
+    }, {
+      "roomId" : "15",
+      "messageCount" : 179250,
+      "lastActivity" : "2026-03-26 21:02:03.452901"
+    }, {
+      "roomId" : "11",
+      "messageCount" : 179223,
+      "lastActivity" : "2026-03-26 21:02:03.452878"
+    }, {
+      "roomId" : "14",
+      "messageCount" : 179216,
+      "lastActivity" : "2026-03-26 21:02:03.452902"
+    }, {
+      "roomId" : "7",
+      "messageCount" : 179210,
+      "lastActivity" : "2026-03-26 21:02:03.452899"
+    }, {
+      "roomId" : "4",
+      "messageCount" : 179183,
+      "lastActivity" : "2026-03-26 21:02:03.452891"
+    }, {
+      "roomId" : "20",
+      "messageCount" : 179176,
+      "lastActivity" : "2026-03-26 21:02:03.4529"
+    }, {
+      "roomId" : "5",
+      "messageCount" : 179106,
+      "lastActivity" : "2026-03-26 21:02:03.452903"
+    }, {
+      "roomId" : "10",
+      "messageCount" : 179077,
+      "lastActivity" : "2026-03-26 21:02:03.452898"
+    }, {
+      "roomId" : "13",
+      "messageCount" : 179016,
+      "lastActivity" : "2026-03-26 21:02:03.452898"
+    }, {
+      "roomId" : "8",
+      "messageCount" : 178967,
+      "lastActivity" : "2026-03-26 21:02:03.452903"
+    }, {
+      "roomId" : "3",
+      "messageCount" : 178834,
+      "lastActivity" : "2026-03-26 21:02:03.452902"
+    }, {
+      "roomId" : "17",
+      "messageCount" : 178782,
+      "lastActivity" : "2026-03-26 21:02:03.452897"
+    }, {
+      "roomId" : "19",
+      "messageCount" : 178551,
+      "lastActivity" : "2026-03-26 21:02:03.452893"
+    }, {
+      "roomId" : "9",
+      "messageCount" : 178518,
+      "lastActivity" : "2026-03-26 21:02:03.452884"
+    }, {
+      "roomId" : "6",
+      "messageCount" : 178223,
+      "lastActivity" : "2026-03-26 21:02:03.452902"
+    } ],
+    "userParticipationPatterns" : [ {
+      "userId" : "9774",
+      "roomId" : "6",
+      "messageCount" : 12,
+      "firstSeen" : "2026-03-26 19:34:36.850994",
+      "lastSeen" : "2026-03-26 21:02:03.343031"
+    }, {
+      "userId" : "29656",
+      "roomId" : "12",
+      "messageCount" : 11,
+      "firstSeen" : "2026-03-26 20:04:08.460637",
+      "lastSeen" : "2026-03-26 21:02:03.33982"
+    }, {
+      "userId" : "19827",
+      "roomId" : "16",
+      "messageCount" : 11,
+      "firstSeen" : "2026-03-26 20:04:08.549668",
+      "lastSeen" : "2026-03-26 21:02:03.279169"
+    }, {
+      "userId" : "7098",
+      "roomId" : "6",
+      "messageCount" : 11,
+      "firstSeen" : "2026-03-26 20:04:08.384245",
+      "lastSeen" : "2026-03-26 21:02:03.348163"
+    }, {
+      "userId" : "34869",
+      "roomId" : "12",
+      "messageCount" : 11,
+      "firstSeen" : "2026-03-26 19:34:36.713083",
+      "lastSeen" : "2026-03-26 21:02:03.325642"
+    }, {
+      "userId" : "14899",
+      "roomId" : "3",
+      "messageCount" : 11,
+      "firstSeen" : "2026-03-26 19:34:36.905621",
+      "lastSeen" : "2026-03-26 21:02:03.441633"
+    }, {
+      "userId" : "80864",
+      "roomId" : "18",
+      "messageCount" : 11,
+      "firstSeen" : "2026-03-26 19:34:36.838351",
+      "lastSeen" : "2026-03-26 21:02:03.300954"
+    }, {
+      "userId" : "2304",
+      "roomId" : "20",
+      "messageCount" : 11,
+      "firstSeen" : "2026-03-26 19:34:36.776463",
+      "lastSeen" : "2026-03-26 20:54:16.890459"
+    }, {
+      "userId" : "34095",
+      "roomId" : "19",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.661731",
+      "lastSeen" : "2026-03-26 21:02:03.413017"
+    }, {
+      "userId" : "13814",
+      "roomId" : "5",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.63954",
+      "lastSeen" : "2026-03-26 21:02:03.247802"
+    }, {
+      "userId" : "32294",
+      "roomId" : "19",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.990411",
+      "lastSeen" : "2026-03-26 21:02:03.337447"
+    }, {
+      "userId" : "25261",
+      "roomId" : "1",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:37.018681",
+      "lastSeen" : "2026-03-26 21:02:03.209833"
+    }, {
+      "userId" : "33256",
+      "roomId" : "11",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.72476",
+      "lastSeen" : "2026-03-26 21:02:03.429607"
+    }, {
+      "userId" : "14240",
+      "roomId" : "1",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.881761",
+      "lastSeen" : "2026-03-26 20:54:16.829072"
+    }, {
+      "userId" : "24935",
+      "roomId" : "13",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.627139",
+      "lastSeen" : "2026-03-26 21:02:03.41415"
+    }, {
+      "userId" : "26421",
+      "roomId" : "1",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.646139",
+      "lastSeen" : "2026-03-26 20:45:11.777388"
+    }, {
+      "userId" : "10899",
+      "roomId" : "15",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.982236",
+      "lastSeen" : "2026-03-26 20:54:16.916094"
+    }, {
+      "userId" : "19839",
+      "roomId" : "2",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.913686",
+      "lastSeen" : "2026-03-26 21:02:03.358623"
+    }, {
+      "userId" : "10037",
+      "roomId" : "4",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:37.014838",
+      "lastSeen" : "2026-03-26 21:02:03.452028"
+    }, {
+      "userId" : "16574",
+      "roomId" : "8",
+      "messageCount" : 10,
+      "firstSeen" : "2026-03-26 19:34:36.852546",
+      "lastSeen" : "2026-03-26 21:02:03.433063"
+    } ]
+  },
+  "dbMetrics" : {
+    "totalMessages" : 3582282,
+    "hikariPool" : {
+      "active" : 0,
+      "idle" : 5,
+      "total" : 5
+    },
+    "queriesPerSecond" : {
+      "transactionsPerSec" : 0,
+      "tupleWritesPerSec" : 0,
+      "note" : "first sample — rate available on next poll",
+      "xactCommitTotal" : 37186,
+      "xactRollbackTotal" : 0,
+      "tupInsertedTotal" : 3590527,
+      "tupFetchedTotal" : 330828627
+    },
+    "activeConnections" : {
+      "total" : 5,
+      "active" : 1,
+      "idle" : 4,
+      "idleInTxn" : 0,
+      "waitingOnLock" : 0
+    },
+    "lockWaits" : {
+      "waitingLocks" : 0,
+      "maxWaitSec" : 0,
+      "avgWaitSec" : 0.0
+    },
+    "bufferPoolHitRatio" : {
+      "cumulativeHitRatioPct" : 98.83,
+      "intervalHitRatioPct" : 0,
+      "note" : "first sample — interval ratio available on next poll",
+      "blksReadTotal" : 2720545,
+      "blksHitTotal" : 230174901
+    },
+    "diskIO" : {
+      "bgwriter" : {
+        "buffersCheckpoint" : 153856,
+        "buffersClean" : 382145,
+        "buffersBackend" : 1160534,
+        "checkpointWriteMs" : 2717918,
+        "checkpointSyncMs" : 409,
+        "checkpointsTimed" : 19,
+        "checkpointsRequired" : 1
+      },
+      "tableIO" : {
+        "heapBlksRead" : 666646,
+        "heapBlksHit" : 177710595,
+        "idxBlksRead" : 2048670,
+        "idxBlksHit" : 51994615,
+        "toastBlksRead" : 0,
+        "toastBlksHit" : 0,
+        "combinedHitRatioPct" : 98.83
+      }
+    }
+  },
+  "writerMetrics" : {
+    "totalWritten" : 0,
+    "totalFailed" : 0,
+    "totalBatches" : 0,
+    "dlqSize" : 0,
+    "dlqTotalAdded" : 0,
+    "writesPerSecond" : 0.0,
+    "avgWriteLatencyMs" : 0.0,
+    "p50WriteLatencyMs" : 0,
+    "p95WriteLatencyMs" : 0,
+    "p99WriteLatencyMs" : 0,
+    "bufferSize" : 0,
+    "circuitBreaker" : {
+      "state" : "CLOSED",
+      "failureCount" : 0
+    }
+  }
+}}
+{"polledAt":"2026-03-27T04:09:13Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:09:23Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:09:33Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:09:43Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:09:53Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:10:03Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:10:13Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:10:23Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:10:33Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:10:43Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:10:53Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:11:03Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:11:13Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:11:23Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:11:33Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:11:43Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:11:54Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:12:04Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:12:14Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:12:24Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:12:34Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:12:44Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:12:54Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:13:04Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:13:14Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:13:24Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:13:34Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:13:44Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:13:54Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:14:04Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:14:14Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:14:24Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:14:34Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:14:44Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:14:54Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:15:04Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:15:14Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:15:24Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:15:35Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:15:45Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:15:55Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:16:05Z","data":{"error":"unreachable"}}
+{"polledAt":"2026-03-27T04:16:15Z","data":{"error":"unreachable"}}
